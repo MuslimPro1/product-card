@@ -1,0 +1,33 @@
+/* Устанавливает box-sizing: border-box для всех элементов */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Удаляет стандартные отступы */
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+  margin: 0;
+}
+
+/* Удаляет стили списков (маркеры и отступы) */
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
+/* Наследует шрифты для элементов форм и кнопок */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Упрощает работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+/* Устанавливает базовые стили для body */
+body {
+  min-height: 100vh;
+  line-height: 1.5; /* Улучшает читабельность */
+}
