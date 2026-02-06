@@ -82,7 +82,7 @@
 
   .product-card__composition-list {
     list-style: circle;
-    padding-left: 20px;
+    padding-left: 9px;
     flex-grow: 1;
     margin-bottom: 20px;
   }
